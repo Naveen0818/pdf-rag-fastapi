@@ -1,0 +1,19 @@
+{
+    "version": "1.0",
+    "context": {
+        "project": {
+            "name": "pdf-rag-fastapi",
+            "description": "A FastAPI application for PDF-based RAG with GitHub MCP integration",
+            "type": "api"
+        },
+        "files": {
+            "include": ["*.py", "*.md", "requirements.txt"],
+            "exclude": ["__pycache__", "*.pyc"]
+        },
+        "metadata": {
+            "framework": "FastAPI",
+            "language": "Python",
+            "features": ["RAG", "PDF Processing", "GitHub MCP"]
+        }
+    }
+} 
